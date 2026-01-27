@@ -30,16 +30,6 @@ Activate environment
 conda activate EB
 ```
 
-We use [Umibozu](https://github.com/ocatias/Umibozu) to automate hyperparameter tuning and model evaluation. Set up with (this requires a [Weights and Biases](https://wandb.ai) account):
-```
-git clone https://github.com/ocatias/Umibozu ; echo '"wandb_project": EdgeBasedGNNs' > Umibozu/config.yaml
-```
-
-To use the same Umibozu commit as us:
-```
-cd Umibozu; git checkout 80444d7547fb9859fc14ccadb93ebaf8976c2080; cd ..
-```
-
 ## Rerun Experiments
 
 **CSL.** Run with different values of `$seed`:

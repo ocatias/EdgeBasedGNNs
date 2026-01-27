@@ -1,0 +1,11 @@
+{
+  epochs: {
+    'value': 100
+  }, 
+  num_layers: {
+    'values': [2,3,5]
+  },
+  emb_dim: {
+    'values': [64, 128]
+  }
+}
